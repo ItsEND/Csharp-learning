@@ -10,6 +10,9 @@ namespace ConsoleApp3
 	{
 		static void Main(string[] args)
 		{
+			/*
+			 Дана длина L окружности. Найти ее радиус R и площадь S круга, ограниченного этой окружностью.
+			 */
 			Console.WriteLine("Введите длину окружности");
 			double L= Convert.ToDouble(Console.ReadLine());
 			double R = L/(2*Math.PI);
