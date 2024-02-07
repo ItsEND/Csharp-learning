@@ -4,22 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LoopWhile
+namespace Lab_4._2
 {
 	internal class Program
 	{
 		static void Main(string[] args)
 		{
-			decimal Sum = 1000;
-			decimal Sum2=Sum*2;
-			decimal p = 4;
-			int year = 0;
-			while (Sum < Sum2)
+			int number =  Convert.ToInt32(Console.ReadLine());
+			int s=0;
+			for (int i=1;i<=number;i++)
 			{
-				Sum += Sum * p / 100;
-				year++;
+				s += 2 * i;
 			}
-			Console.WriteLine(year);	
+		
+			Console.WriteLine(s);
 			Console.ReadKey();
 		}
 	}
